@@ -27,6 +27,7 @@ import {
   Tags,
   Footer,
   Link,
+  Copy,
 } from "./styles";
 
 function App() {
@@ -120,14 +121,20 @@ function App() {
         </Tags>
       </Body>
       <Footer>
-        <SelfImage src={profile_image} />
+        <div>
+          <SelfImage src={profile_image} />
+        </div>
         <Text>
           <b>Mika Matikainen</b> is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA
           participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.
         </Text>
       </Footer>
+      <Copy>© 2024. All rights reserved.</Copy>
       <Link>
-        Developed by: <a href="https://www.lucasfernandesdev.com.br/">lucasfernandesdev.com.br</a>
+        Developed by:{" "}
+        <a href="https://www.lucasfernandesdev.com.br/" target="_blank" rel="noreferrer">
+          lucasfernandesdev.com.br
+        </a>
       </Link>
     </Container>
   );

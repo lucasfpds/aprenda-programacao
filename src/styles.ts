@@ -132,14 +132,26 @@ export const Footer = styled.footer`
   max-width: 620px;
   align-items: center;
 
-  & > img {
+  & img {
     width: 70px;
     height: 70px;
+  }
+
+  & p {
+    margin: 0;
   }
 `;
 
 export const Link = styled.p`
   width: 100%;
   text-align: right;
+  font-weight: 700;
+  margin: 0;
+`;
+
+export const Copy = styled.p`
+  margin: 24px 0 0 0;
+  width: 100%;
+  text-align: center;
   font-weight: 700;
 `;

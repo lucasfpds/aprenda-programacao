@@ -1,11 +1,11 @@
 import React from "react";
-import image from "./images/image.svg";
-import body_image from "./images/body_image.svg";
+import image from "./images/image.png";
+import body_image from "./images/body_image.png";
+import body_image_2 from "./images/body_image_2.png";
 import facebook_icon from "./images/facebook_icon.svg";
 import twitter_icon from "./images/twitter_icon.svg";
 import profile_image from "./images/profile_image.png";
 
-import "./App.css";
 import {
   Container,
   Header,
@@ -53,71 +53,89 @@ function App() {
         <Heading>Aprenda Programação</Heading>
       </Header>
       <Introduction>
-        <IntroductionTitle>A few words about this blog platform, Ghost, and how this site was made</IntroductionTitle>
-        <IntroductionSubTitle>Why Ghost (& Figma) instead of Medium, WordPress or other options?</IntroductionSubTitle>
+        <IntroductionTitle>Programar é o futuro! Comece hoje com cursos gratuitos</IntroductionTitle>
+        <IntroductionSubTitle>Programe sem gastar nada: Descubra cursos gratuitos de qualidade.</IntroductionSubTitle>
         <Image src={image} />
       </Introduction>
       <Body>
         <SelfInfo>
           <SelfImage src={profile_image} />
           <SelfContent>
-            <SelfName>Mika MAtikainen</SelfName>
-            <SelfDate>Apr 15, 2020 · 4 min read</SelfDate>
+            <SelfName>Lucas Fernandes</SelfName>
+            <SelfDate>Fev 25, 2024 · 15 min read</SelfDate>
           </SelfContent>
         </SelfInfo>
         <Text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac
-          habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra.
-          <br />
-          <br />
-          <br />
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis
-          posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus.
-          <br />
-          <br />
-          <br />
+          <Text>
+            Olá pessoal, seja bem-vindo a este espaço dedicado a inspirar jovens a explorar o vasto e fascinante mundo
+            da programação! Se você já se perguntou sobre o que é programação, não se preocupe, estamos aqui para
+            guiá-lo nessa jornada emocionante.
+            <br />
+            <br />
+            Em sua essência, a programação é a arte de escrever instruções para um computador seguir. É como fornecer um
+            conjunto de regras para máquinas, permitindo que elas executem tarefas complexas que facilitam nossa vida
+            diária.
+            <br />
+            Por exemplo, pense nos aplicativos em nossos smartphones que nos mantêm conectados com amigos e familiares,
+            ou nos sistemas de navegação em carros que nos guiam pelo trânsito caótico das cidades. Tudo isso é
+            resultado do trabalho árduo e criativo dos programadores.
+            <br />
+            <br />
+          </Text>
+          <Title>Mas como exatamente a programação nos ajuda no dia a dia?</Title>
+          Imagine esta cena: você está navegando na internet, pesquisando sobre um assunto que te interessa, quando de
+          repente se depara com um site que simplifica exatamente o que você precisa saber. Ou então, você precisa
+          realizar uma tarefa repetitiva no trabalho, e um software desenvolvido por programadores automatiza todo o
+          processo, poupando seu tempo e energia.
+          <br />A programação está por trás de tudo isso, simplificando tarefas, automatizando processos e nos
+          conectando com o mundo de maneiras inimagináveis.
         </Text>
-        <Title>Next on the pipeline</Title>
-        <Text>
-          Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula
-          suscipit finibus. Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos.
-          <br />
-          <br />
-          Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla.
-        </Text>
-        <Image src={body_image} />
+        <Image src={body_image} isBodyImage={true} />
 
         <Text>
-          Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos. Aliquam quis posuere ligula.
           <br />
           <br />
-          In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante.
-          Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere
-          maximus dui et fringilla. Nulla non volutpat leo.
+          E falando em conexões, como está o mercado para quem decide se aventurar na área da programação? Posso
+          garantir que está mais aquecido do que nunca! Com o avanço da tecnologia, a demanda por profissionais de
+          programação só cresce.
+          <br />
+          Empresas de todos os setores, desde startups inovadoras até gigantes da tecnologia, estão ávidas por talentos
+          que possam desenvolver soluções criativas e eficientes. E mais do que nunca, em um mundo cada vez mais
+          digital, a habilidade de programação se torna essencial em praticamente todas as áreas profissionais.
           <br />
           <br />
+          Mas antes de mergulhar de cabeça nesse mercado promissor, é fundamental destacar a importância da educação em
+          nossas vidas. Aprender a programar não é apenas adquirir habilidades técnicas, mas também desenvolver o
+          pensamento crítico, a resolução de problemas e a criatividade. Imagine a responsabilidade que recai sobre os
+          ombros de programadores durante eventos cruciais, como eleições.
+          <br />
+          As urnas eletrônicas, responsáveis pelo funcionamento democrático de um país, são mantidas e aprimoradas por
+          programadores como nós. É uma responsabilidade enorme, mas também uma oportunidade única de contribuir para a
+          sociedade e fazer a diferença.
           <br />
           <br />
-          Thanks for reading,
+          <Image src={body_image_2} isBodyImage={true} />
           <br />
-          Mika
+          <br />
+          Então, se você está animado para começar sua jornada na programação, aqui vai uma lista com alguns sites que
+          oferecem cursos gratuitos para você dar os primeiros passos: Obrigado por ter lido até aqui,
+          <br />
+          Lucas
         </Text>
         <Buttons>
           <Button onClick={shareOnFacebook}>
             <Image src={facebook_icon} />
-            Share on Facebook
+            Compartilhe no Facebook
           </Button>
           <Button onClick={shareOnTwitter}>
             <Image src={twitter_icon} />
-            Share on Twitter
+            Compartilhe no Twitter
           </Button>
         </Buttons>
         <br />
         <br />
         <Tags>
-          Tags: <u>product design</u>, <u>culture</u>
+          Tags: <u>programação</u>, <u>tecnologia</u>, <u>educação</u>
         </Tags>
       </Body>
       <Footer>
@@ -125,8 +143,8 @@ function App() {
           <SelfImage src={profile_image} />
         </div>
         <Text>
-          <b>Mika Matikainen</b> is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA
-          participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.
+          <b>Lucas Fernandes</b> é um desenvolvedor de software e graduando em engenharia da computação pelo Centro
+          Universitário União das Américas Descomplica.
         </Text>
       </Footer>
       <Copy>© 2024. All rights reserved.</Copy>

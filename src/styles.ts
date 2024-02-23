@@ -37,10 +37,10 @@ export const IntroductionTitle = styled.h2`
   font-size: 54px;
   margin: 52px 0;
   max-width: 858px;
+  text-align: center;
 
   @media screen and (max-width: 767px) {
     font-size: 36px;
-    text-align: center;
     margin: 32px 0;
   }
 `;
